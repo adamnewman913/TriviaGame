@@ -38,10 +38,12 @@ body {
 
 h1 {
   text-align: center;
-  color:black;
-  font-weight: bolder;
+  color:darkgrey;
+  font-weight: 1000;
   padding: 20px;
-  font-size: 60px;
+  font-size: 100px;
+  font-family: 'DM sherif diaply, serif';
+  font-style: italic;
 }
 
 p {
@@ -68,9 +70,9 @@ opacity: 0.7;
 }
 
 .btn {
-background-color: maroon;
+background-color: red;   
   position: relative;
   bottom: -150px;
-  color: navy;  
+  color:gold;  
   )
 }
