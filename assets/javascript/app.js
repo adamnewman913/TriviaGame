@@ -25,7 +25,7 @@ $(document).ready(function () {
             photo: "../assets/images/yellowjacket.gif"
         }, 
         {
-            question: "Who does Captain America meet while joggin on Washington D.C.?", 
+            question: "Who does Captain America meet while jogging on Washington D.C.?", 
             choice: ["Black Widow", "Tony Stark", "Sam Wilson", "Steve Rogers" ],
             answer: 2,
             photo: "../assets/images/samwilson.gif"
@@ -138,7 +138,7 @@ $(document).ready(function () {
             stop();
             wrongCount++;
             userGuess="";
-            $("#answerblock").html("<p>Wrong! The correct answer is: " + pick.choice[pick.answer] + "</p>");
+            $("#answerblock").html("<p>Nope! The correct answer is: " + pick.choice[pick.answer] + "</p>");
             hidepicture();
         }
     })

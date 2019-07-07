@@ -1,12 +1,13 @@
 .answerchoice {
-	border: 1px solid black;
+	border: 1px solid gold;
   border-radius: 5%;
 	width: 40%;
-	color: black;
+	color: navy;
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
-  background-color: white;
+  background-color: skyblue;
+  cursor: pointer;
 
 }
 
@@ -27,6 +28,7 @@ img {
 
 #reset {
   visibility: visible;
+  position: relative;
 }
 
 body {
@@ -60,7 +62,7 @@ h2, h4 {
 
 .wrapper {
  background-color: beige;
-opacity: 0.7;
+opacity: 0.9;
   color: black;
   margin: 10px auto;
   border: 10px solid black;
@@ -74,5 +76,6 @@ background-color: red;
   position: relative;
   bottom: -150px;
   color:gold;  
+  padding: 50px 50px;
   )
 }
