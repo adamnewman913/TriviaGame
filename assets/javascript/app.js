@@ -4,49 +4,49 @@ $(document).ready(function () {
             question: "What was the first movie released in the Marvel Cinematic Universe?", 
             choice: ["The Incredible Hulk", "Captain America: The First Avenger", "Iron Man", "The Dark Knight"],
             answer: 2,
-            photo: "../assets/images/ironman.gif"
+            photo: "assets/images/ironman.gif"
          },
          {
              question: "Where is Wakanda located?", 
             choice: ["South America", "Africa", "Asia", "China"],
             answer: 1,
-            photo: "../assets/images/wakanda.gif"
+            photo: "assets/images/wakanda.gif"
          }, 
          {
              question: "Who has appeard in every single MCU movie?", 
             choice: ["Stan Lee", "Jack Kirby", "Robert Downey, Jr.", "Steve Rogers" ],
             answer: 0,
-            photo: "../assets/images/stanlee.gif"
+            photo: "assets/images/stanlee.gif"
         }, 
         {
             question: "Who is the villian in Ant-Man", 
             choice: ["Blue Hornet", "Wasp", "Scorpion", "Yellow Jacket" ],
             answer: 3,
-            photo: "../assets/images/yellowjacket.gif"
+            photo: "assets/images/yellowjacket.gif"
         }, 
         {
             question: "Who does Captain America meet while jogging on Washington D.C.?", 
             choice: ["Black Widow", "Tony Stark", "Sam Wilson", "Steve Rogers" ],
             answer: 2,
-            photo: "../assets/images/samwilson.gif"
+            photo: "assets/images/samwilson.gif"
         }, 
         {
             question: "What is the one thing on Earth Pepper Potts is allergic to?", 
             choice: ["Tilapia", "Peanuts", "Strawberries", "Cats" ],
             answer: 2,
-            photo: "../assets/images/strawberry.gif"
+            photo: "assets/images/strawberry.gif"
         }, 
         {
             question: "Who's home is used as a safe house in Avengers: Age of Ultron?", 
             choice: ["Hawkeye's", "Thor's", "Tony Stark's", "Nick Fury's" ],
             answer: 0,
-            photo: "../assets/images/hawkeye.gif"
+            photo: "assets/images/hawkeye.gif"
         }, 
         {
             question: "Who kills Thanos in Avengers: Endgame?", 
             choice: ["A: Captain America", "B: Thor", "C: Iron Man", "D: B & C" ],
             answer: 3,
-            photo: "../assets/images/thorironman.gif"
+            photo: "assets/images/thorironman.gif"
         }];
     
     var correctCount = 0;
