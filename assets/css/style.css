@@ -72,10 +72,10 @@ opacity: 0.9    ;
 }
 
 .btn {
-background-color: red;   
+background-color: red!important;   
   position: relative;
   bottom: -150px;
   color:gold;  
   padding: 50px 50px;
-  )
+  
 }
